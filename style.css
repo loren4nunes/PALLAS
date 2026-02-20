@@ -323,3 +323,13 @@ html, body{
   color:white;
   cursor:pointer;
 }
+
+/* FIX: rodapé largura total */
+footer.bottombar{
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 46px;
+  background: #3E4F2B;
+}
