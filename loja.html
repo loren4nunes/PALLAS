@@ -6,6 +6,7 @@
   <title>PALLAS — Loja</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body class="page inner">
   <header class="topbar">
     <a class="topbar-back" href="hub.html">← Voltar</a>
@@ -20,46 +21,48 @@
 
       <div class="product-grid">
         <figure class="card" onclick="abrirModal('quadro1.jpg')">
-  <img src="quadro1.jpg" alt="Quadro O estrangeiro" />
-  <figcaption>O Estrangeiro</figcaption>
-</figure>
-        
+          <img src="quadro1.jpg" alt="Quadro O Estrangeiro" />
+          <figcaption>O Estrangeiro</figcaption>
+        </figure>
+
         <figure class="card">
-          <img src="logo.png" alt="" />
+          <img src="logo.png" alt="Em breve" />
           <figcaption>EM BREVE</figcaption>
         </figure>
 
         <figure class="card">
-          <img src="logo.png" alt="" />
+          <img src="logo.png" alt="Em breve" />
           <figcaption>EM BREVE</figcaption>
         </figure>
 
         <figure class="card">
-          <img src="logo.png" alt= />
+          <img src="logo.png" alt="Em breve" />
           <figcaption>EM BREVE</figcaption>
         </figure>
+      </div>
 
-  <!-- MODAL GALERIA -->
-<div id="modal" class="modal">
-  <span class="fechar" onclick="fecharModal()">&times;</span>
+    </section>
+  </main>
 
-  <div class="modal-conteudo">
-    <img id="imgPrincipal" src="" alt="Imagem ampliada">
+  <footer class="bottombar"></footer>
 
-    <div class="miniaturas">
-      <img src="quadro1.jpg" onclick="trocarImagem(this.src)">
-      <img src="quadro1 - 2.jpg" onclick="trocarImagem(this.src)">
-      <img src="quadro1 - 3.jpg" onclick="trocarImagem(this.src)">
-      <img src="quadro1 - 4.jpg" onclick="trocarImagem(this.src)">
-      <img src="quadro1 - 5.jpg" onclick="trocarImagem(this.src)">
+  <!-- MODAL GALERIA (fora da grid e fora do main) -->
+  <div id="modal" class="modal">
+    <span class="fechar" onclick="fecharModal()">&times;</span>
+
+    <div class="modal-conteudo">
+      <img id="imgPrincipal" src="" alt="Imagem ampliada">
+
+      <div class="miniaturas">
+        <img src="quadro1.jpg" onclick="trocarImagem(this.src)" alt="Miniatura 1">
+        <img src="quadro1 - 2.jpg" onclick="trocarImagem(this.src)" alt="Miniatura 2">
+        <img src="quadro1 - 3.jpg" onclick="trocarImagem(this.src)" alt="Miniatura 3">
+        <img src="quadro1 - 4.jpg" onclick="trocarImagem(this.src)" alt="Miniatura 4">
+        <img src="quadro1 - 5.jpg" onclick="trocarImagem(this.src)" alt="Miniatura 5">
+      </div>
     </div>
   </div>
-</div>
-  </div>
-  </div>
 
-        <footer class="bottombar"></footer>
-      
   <script src="script.js"></script>
 </body>
 </html>
