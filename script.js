@@ -12,3 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+function abrirModal(img){
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("imgPrincipal").src = img;
+}
+
+function fecharModal(){
+  document.getElementById("modal").style.display = "none";
+}
+
+function trocarImagem(src){
+  document.getElementById("imgPrincipal").src = src;
+}
